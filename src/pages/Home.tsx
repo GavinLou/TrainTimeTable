@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 
-const MARQUEE_API =
-  "https://jsonplaceholder.typicode.com/todos?_limit=20";
 
 const Home = () => {
   const [alerts, setAlerts] = useState<string[]>([]);
