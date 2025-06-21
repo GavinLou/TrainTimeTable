@@ -72,18 +72,21 @@ const Home = () => {
             />
             <Box>
               <Card.Body>
-                <Card.Title mb="2">The perfect latte</Card.Title>
+                <Card.Title mb="2">緊急通報電話</Card.Title>
                 <Card.Description>
-                  Caffè latte is a coffee beverage of Italian origin made with espresso
-                  and steamed milk.
+                  軌道、平交道、橋梁、隧道等設施發生事故或異常情形時，請立即撥打緊急通報電話。
                 </Card.Description>
                 <HStack mt="4">
-                  <Badge>Hot</Badge>
-                  <Badge>Caffeine</Badge>
+                  <Badge>電話</Badge>
+                  <Badge>緊急</Badge>
                 </HStack>
               </Card.Body>
               <Card.Footer>
-                <Button>Buy Latte</Button>
+                <Button
+                  onClick={() => window.open("https://www.railway.gov.tw/tra-tip-web/adr/customized_info?I=BOdk82vOPKw4nr9W8kfiZqgN%2Bif9LX%2B2JNc1p3BG4HGpGf0rzDC8bMRG3GqlEN4q5Sm8csVG1EI%3D&site_preference=normal", "_blank")}
+                >
+                  連絡電話
+                </Button>
               </Card.Footer>
             </Box>
           </Card.Root>
@@ -98,10 +101,9 @@ const Home = () => {
             />
             <Box>
               <Card.Body>
-                <Card.Title mb="2">The perfect latte</Card.Title>
+                <Card.Title mb="2">鐵路紀念集章活動</Card.Title>
                 <Card.Description>
-                  Caffè latte is a coffee beverage of Italian origin made with espresso
-                  and steamed milk.
+                  參加鐵路紀念集章活動，蒐集各站印章，完成後可兌換精美紀念品。
                 </Card.Description>
                 <HStack mt="4">
                   <Badge>Hot</Badge>
